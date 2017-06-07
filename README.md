@@ -22,3 +22,5 @@ Using John Papa's style guide (https://github.com/johnpapa/angular-styleguide/tr
 3. Add Unit Testing Suite (Karma (runner), Jasmine (assertion and spies))
 4. Add Coverage (Istanbul)
 5. Minification and Maps
+
+**Never push compiled code. Copiled code is for GH Pages only**

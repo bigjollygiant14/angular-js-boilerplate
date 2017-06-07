@@ -3,13 +3,13 @@ var path = require('path');
 module.exports = {
   context: __dirname + '/src',
   devServer: {
-    contentBase: __dirname + '/dist',
+    contentBase: __dirname + '/docs',
     port: 3000
   },
   entry: './index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   module: {
     rules: [{
