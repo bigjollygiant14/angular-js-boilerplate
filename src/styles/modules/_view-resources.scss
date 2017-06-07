@@ -1,0 +1,34 @@
+.view {
+  table {
+    width: 300px;
+
+    @media screen and (min-width: $break-small-min) {
+      width: 500px;
+    }
+
+    thead {
+      td {
+        span {
+          border-bottom: 1px dotted $black;
+        }
+      }
+    }
+
+    tr {
+      height: 40px;
+      vertical-align: center;
+    }
+
+    td {
+      width: 33%;
+
+      input {
+        width: 100%;
+      }
+
+      button {
+        width: 45%;
+      }
+    }
+  }
+}

@@ -3,17 +3,16 @@
   margin-right: auto;
   width: auto;
 
-  @media (min-width: 768px) {
+  @media (min-width: $break-small-min) {
     width: 750px;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: $break-medium-min) {
     width: 970px;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: $break-large-min) {
     width: 1170px;
   }
-
 
 }

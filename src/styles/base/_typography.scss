@@ -1,0 +1,22 @@
+h1 {
+  color: $dark-orange;
+  font-size: 1.6rem;
+}
+
+h2 {
+  color: $light-orange;
+  font-size: 1.2rem;
+}
+
+a {
+  color: $dark-green;
+  text-decoration: none;
+
+  &:hover {
+    color: $light-blue;
+  }
+
+  /* &:visited {
+    color: $dark-purple;
+  } */
+}
