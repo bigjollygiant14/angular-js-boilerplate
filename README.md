@@ -21,3 +21,4 @@ Using John Papa's style guide (https://github.com/johnpapa/angular-styleguide/tr
 2. Add Linter (eslint)
 3. Add Unit Testing Suite (Karma (runner), Jasmine (assertion and spies))
 4. Add Coverage (Istanbul)
+5. Minification and Maps
