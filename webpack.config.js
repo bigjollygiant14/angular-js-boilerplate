@@ -1,4 +1,6 @@
-var path = require('path');
+let path = require('path');
+let autoprefixer = require('autoprefixer');
+let webpack = require('webpack');
 
 module.exports = {
   context: __dirname + '/src',
@@ -27,6 +29,14 @@ module.exports = {
       use: {
         loader: 'html-loader'
       }
+    }, {
+      test: /(\.css|\.scss|\.sass)$/,
+      exclude: /(node_modules)/,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader'
+      ]
     }]
   }
 };
