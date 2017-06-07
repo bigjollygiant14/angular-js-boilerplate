@@ -44793,7 +44793,7 @@ exports = module.exports = __webpack_require__(104)(undefined);
 
 
 // module
-exports.push([module.i, ".container {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1200px; }\n", ""]);
+exports.push([module.i, ".container {\n  margin-left: auto;\n  margin-right: auto;\n  width: auto; }\n  @media (min-width: 768px) {\n    .container {\n      width: 750px; } }\n  @media (min-width: 992px) {\n    .container {\n      width: 970px; } }\n  @media (min-width: 1200px) {\n    .container {\n      width: 1170px; } }\n", ""]);
 
 // exports
 
