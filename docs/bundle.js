@@ -44658,7 +44658,6 @@ function headerController() {
 
 
 module.exports = angular.module('app.common.components.header', []).component('header', {
-  // using require in webpack, template will be generated bundled in JS
   template: __webpack_require__(107),
   controller: 'headerController',
   controllerAs: 'header'
@@ -44794,7 +44793,7 @@ exports = module.exports = __webpack_require__(104)(undefined);
 
 
 // module
-exports.push([module.i, "/* .CakeRoot { // override BS styling\n    @import 'base/all';            // global styles\n    @import 'components/all';      // component-specific styles\n    @import 'layout/all';          // layout, grid, header/footer, sidebars etc.\n    @import 'pages/all';           // page-specific styles or themes\n    @import 'vendors/all';         // vendor Sass, if applicable\n} */\n.container {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1200px; }\n", ""]);
+exports.push([module.i, ".container {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1200px; }\n", ""]);
 
 // exports
 
@@ -44897,7 +44896,7 @@ module.exports = "<div class=\"view\">\n  <h2>Favorite Learning Resources</h2>\n
 /* 107 */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"container\">\n  <h1>Learning Resources</h1>\n</header>\n";
+module.exports = "<section class=\"container\">\n  <h1>Learning Resources</h1>\n</section>\n";
 
 /***/ }),
 /* 108 */
