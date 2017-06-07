@@ -8,7 +8,7 @@ module.exports =
   .config(function ($stateProvider) {
     $stateProvider
     .state('view', {
-      url: '',
+      url: '/',
       title: 'View',
       template: require('./layout.html'),
       controller: 'viewController',
