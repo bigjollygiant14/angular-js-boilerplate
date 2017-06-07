@@ -17,10 +17,9 @@ _`npm start` will clean the dist folder, transpile the es6 and bundle everything
 Using John Papa's style guide (https://github.com/johnpapa/angular-styleguide/tree/master/a1)
 
 ## To Be Added:
-1. Add CSS Preprocessor (Probably stylus, css linter) and a grid
-2. Add Linter (eslint)
-3. Add Unit Testing Suite (Karma (runner), Jasmine (assertion and spies))
-4. Add Coverage (Istanbul)
-5. Minification and Maps
+1. Add Linter (eslint)
+2. Add Unit Testing Suite (Karma (runner), Jasmine (assertion and spies))
+3. Add Coverage (Istanbul)
+4. Minification and Maps
 
 **Never push compiled code. Compiled code is for GH Pages only**
