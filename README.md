@@ -11,5 +11,12 @@
 3. Run `npm start`
 4. Open browser to localhost:3000
 
+_`npm start` will clean the dist folder, transpile the es6 and bundle everything, copy index.html to dist and finally start up the dev server_
+
 ## StyleGuide
 Using John Papa's style guide (https://github.com/johnpapa/angular-styleguide/tree/master/a1)
+
+## To Be Added:
+1. Add Linter
+2. Add CSS Preprocessor
+3. Add Unit Testing Suite

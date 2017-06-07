@@ -1,0 +1,36 @@
+<div class="view">
+  <h2>Favorite Learning Resources</h2>
+
+  <table class="resource-list-table">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Type</td>
+        <td>Modify</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="resource in view.userService.model.resources track by $index">
+        <td>
+          <span ng-hide="resource.edit">{{resource.name}}</span>
+          <input type="text" ng-hide="!resource.edit" ng-model="resource.name" />
+        </td>
+
+        <td>
+          <span ng-hide="resource.edit">{{resource.type}}</span>
+          <!-- Instead of doing text input, we can control the 'type' by using ng-option on a select -->
+          <input type="text" ng-hide="!resource.edit" ng-model="resource.type" />
+        </td>
+
+        <td>
+          <button ng-click="view.toggleEdit($index)">Edit</button>
+          <!-- Conditionally show different buttons if in edit state
+          <button ng-hide="!resource.edit" ng-click="view.toggleEdit($index)">Cancel</button>
+          -->
+          <button ng-click="view.deleteResource($index)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </div>
+</div>

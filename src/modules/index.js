@@ -2,6 +2,6 @@
 
 module.exports =
   angular.module('app.modules', [
-    require('./resource').name,
-    require('./help').name
+    require('./view-resources').name,
+    require('./add-resources').name,
   ]);

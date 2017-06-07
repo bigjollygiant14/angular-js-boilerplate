@@ -1,0 +1,21 @@
+<div class="add">
+  <h1>Add resource</h1>
+  <!-- Ideally, we would probably do inline or a modal for adding a resource. Once the request 200s from the server, we would show a toast to confirm item saved -->
+
+  <p>Add a name and type of your favorite learning resource, then click add.</p>
+
+  <form>
+    <div class="form-group">
+      <label for="type">Name</label>
+      <input type="text" ng-model="add.addModel.name">
+    </div>
+    <div class="form-group">
+      <label for="type">Type</label>
+      <input type="text" ng-model="add.addModel.type">
+    </div>
+
+    <div class="button-group">
+      <button ng-click="add.addResource()">Add</button>
+    </div>
+  </form>
+</div>
