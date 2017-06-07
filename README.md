@@ -23,4 +23,4 @@ Using John Papa's style guide (https://github.com/johnpapa/angular-styleguide/tr
 4. Add Coverage (Istanbul)
 5. Minification and Maps
 
-**Never push compiled code. Copiled code is for GH Pages only**
+**Never push compiled code. Compiled code is for GH Pages only**
